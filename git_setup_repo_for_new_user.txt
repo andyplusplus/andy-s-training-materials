@@ -1,0 +1,23 @@
+
+=== Git global setup ===
+
+git config --global user.name "xxxx"
+git config --global user.email "xxxxx"
+
+=== Create a new repository ===
+
+mkdir xxxxxxx
+cd xxxxxxx
+git init
+touch README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin htts://xxxxxxx/xxxxxxx.git
+git push -u origin master
+
+=== Push an existing Git repository ===
+
+cd existing_git_repo
+git remote add origin htts://xxxxxxx/xxxxxxx.git
+git push -u origin master
+
